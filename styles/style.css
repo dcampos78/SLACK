@@ -59,7 +59,13 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-;
+    justify-content: center;
+}
+  .first-page-container-text, .first-page-container-video{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 .first-page-container-title {
     font: bold;
@@ -69,52 +75,83 @@
     line-height: 1.12;
     letter-spacing: -.8px;
     font-size: 2rem;
+    text-align: center;
 }
 .title-orange {
     margin-bottom: 1rem;
     color: #ecb22e!important;
 }
-
-
+.first-page-container-paragraph1, .first-page-container-paragraph2 {
+    font-weight: 400;
+    color: white;
+}
 .span-bold {
     font: bold;
 }
-.video  {
+.video, .img {
     max-width: 100%;
     height: auto;
 }
-
-
 /* BOTONES FIRST PAGE */
 .first-page-b-mobile {
     width: 95%;
     color: #4a154b;
     background-color: white;
     padding: 25px;
-    font: bold;
+    font-weight: 700;
+}
+.first-page-b-mobile:hover {
+    color: #4a154b;
+    transform: scaleY(1);
+    opacity: 1;
 }
 .first-page-contanier-button2 {
     box-shadow: 0 0 0 1px #4285f4;
     background-color: #4285f4;
     padding: 25px;
-    font: bold;
+    font-weight: 700;
     position: relative;
     width: 95%
 }
 .first-page-contanier-button1 {
     box-shadow: 0 0 0 1px black;
     background-color: white;
+    color: #4a154b;
     padding: 25px;
-    font: bold;
+    font-weight: 700;
     position: relative;
     width: 95%
 }
+@media (min-width: 320px) {
+    .nav-bar-container-ul, .nav-bar-container-options, .first-page-container-paragraph1, .first-page-container-paragraph2,  .first-page-container-button1, .first-page-container-button2 {
+        display: none;
+    }
+}
+/* SECOND PAGE */
 
+.second-page {
+    background-color: #f4ede4;
+    height: fit-content;
+}
+.second-page-container-logos {
+    padding: 40px 0px 40px 0px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.second-page-title {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+.logo-second-page {
+    max-width: 170px;
+    margin: 10px 20px;
+}
 
-
-
-  @media (min-width: 320px) {
-    .nav-bar-container-ul, .nav-bar-container-options {
+@media (min-width: 320px) {
+    .second-page-title  {
       display: none;
     }
-  }
+}
