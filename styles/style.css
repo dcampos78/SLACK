@@ -36,11 +36,10 @@
     width: 100%;
     height: 7%;
     display: flex;
-    background-color: transparent;
     border-bottom: none;
     z-index: 1000;
     top: 0;
-    position: fixedgitg;
+    position: relative;
   }
   .nav-bar-container {
     width: 100%;
@@ -119,30 +118,33 @@ video:hover {
     box-shadow: 0 0 1rem rgba(0,0,0,.6);
 }
 /* BOTONES FIRST PAGE */
-.first-page-b-mobile {
+.button.firstpage--m{
     width: 85%;
-    color: #4a154b;
-    background-color: white;
     padding: 20px 20px 20px 40px;
     font-weight: 800;
+    background-color: #fff;
+    color: #611f69;
+    fill: #611f69;
+    box-shadow: inset 0 0 0 1px #611f69;
 }
-.first-page-b-mobile:hover {
+.button.firstpage--m:hover {
     box-shadow: inset 0 0 0 2px #611f69;
     background-color: #611f69;
     color: white;
 }
 
-.first-page-button2 {
+.button.firstpage--2 {
     box-shadow: 0 0 0 1px #4285f4;
     background-color: #4285f4;
     padding: 25px;
     position: relative;
     width: 95%
 }
-.first-page-button1 {
-    box-shadow: 0 0 0 1px black;
-    background-color: white;
-    color: #4a154b;
+.button.firstpage--1 {
+    background-color: #fff;
+    color: #611f69;
+    fill: #611f69;
+    box-shadow: inset 0 0 0 1px #611f69;
     padding: 25px;
     position: relative;
     width: 95%
@@ -184,19 +186,146 @@ video:hover {
 
 .third-page {
     padding: 48px 8px;
+    background-color: #f4ede4;
+    height: fit-content;
 }
-
 .third-page-img-mobile {
     background-color: #36c5f0;
+    padding: 16px 24px 24px 16px;
     display: flex;
     justify-content: center;
+    margin-bottom: 32px;
 }
-
-
+.third-page-text-mobile {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+.third-page-text-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.third-page-text-p, .third-page-information {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
 
 
 @media (min-width: 320px) {
     .third-page-video, .third-page-text-desktop-tablet {
       display: none;
     }
+}
+
+/* FOURTH PAGE */
+.fourth-page {
+    padding: 48px 8px;
+    background-color: #f4ede4;
+    height: fit-content;
+}
+.fourth-page-img-mobile {
+    background-color: #ecb22e;
+    padding: 16px 24px 24px 16px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.fourth-page-text-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.fourth-page-text-p, .fourth-page-information {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+@media (min-width: 320px) {
+    .fourth-page-video, .fourth-page-text {
+      display: none;
+    }
+}
+
+/* FITH PAGE */
+.fith-page {
+    padding: 48px 8px;
+    background-color: #f4ede4;
+    height: fit-content;
+}
+.fith-page-img-mobile {
+    background-color: #2eb67d;
+    padding: 16px 24px 24px 16px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.fith-page-text-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.fith-page-text-p, .fith-page-information {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+@media (min-width: 320px) {
+    .fith-page-video, .fith-page-text {
+      display: none;
+    }
+}
+
+/* SIXTH PAGE */
+.fith-page {
+    padding: 48px 8px;
+    background-color: white;
+    height: fit-content;
+}
+.button.sixtpage--one{
+    background-color: #611f69;
+    color: #fff;
+    fill: #fff;
+    margin-bottom: 15px;
+}
+.button.sixtpage--two{
+    background-color: #fff;
+    color: #611f69;
+    fill: #611f69;
+    box-shadow: inset 0 0 0 1px #611f69;
+    margin-bottom: 45px;
+}
+.sixth-page-text-p{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.sixth-page-text-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.item-list{
+   width: 50%;
+   margin-left: 25%;
+   margin-right: 25%;
+}
+.item{
+    list-style: none;
+    font-weight: 700;
+    text-align: center;
+}
+.item-number{
+    color: #611f69;
+    font-weight: 700;
+    font-size: 50px;
+}
+.sixt-page-promedio{
+     width: 80%;
+     margin: 10%;
 }
