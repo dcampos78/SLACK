@@ -1,0 +1,147 @@
+.nav-bar {
+    background-color: #4a154b;
+    color: white;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    border-bottom: none;
+    position: fixed;
+  }
+    &-container {
+      width: 100%;
+      height: 100%;
+      margin-left: 3%;
+      margin-right: 3%;
+      display: flex;
+      align-items: center;
+    }
+      &-&-menu {
+        width: 55%;
+        height: 100%;
+        display: flex;
+      }
+      &-&-hamburguer{
+        width: 10%;
+        height: 100%;
+      }
+      &-&-logo{
+        width: 45%;
+        height: 45%;
+}
+  .slack-logo {
+    width: 70%;
+    height: 100%;
+  }
+  .hamburguer-icon{
+    width: 80%;
+    height: 80%;
+  }
+  .first-page-container {
+    background-color: #4a154b;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    &-text, &-video {
+      height: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    &-title {
+      font: bold;
+      color: white;
+      font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+      font-weight: 700;
+      line-height: 1.12;
+      letter-spacing: -.8px;
+      font-size: 2rem;
+      text-align: center;
+    }
+    &-paragraph1, &paragraph2{
+      font-weight: 400;
+      color: white;
+    }
+    &-button-m {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+}
+.title-orange {
+  margin-bottom: 1rem;
+  color: #ecb22e!important;
+}
+.span-bold {
+  font: bold;
+}
+.button.firstpage--m{
+  width: 85%;
+  padding: 20px 20px 20px 40px;
+  font-weight: 800;
+  background-color: #fff;
+  color: #611f69;
+  fill: #611f69;
+  box-shadow: inset 0 0 0 1px #611f69;
+  }
+  &:hover {
+    box-shadow: inset 0 0 0 2px #611f69;
+    background-color: #611f69;
+    color: white;
+}
+.button.firstpage--2 {
+    box-shadow: 0 0 0 1px #4285f4;
+    background-color: #4285f4;
+    padding: 25px;
+    position: relative;
+    width: 95%
+}
+.button.firstpage--1 {
+    background-color: #fff;
+    color: #611f69;
+    fill: #611f69;
+    box-shadow: inset 0 0 0 1px #611f69;
+    padding: 25px;
+    position: relative;
+    width: 95%
+    transition all 0,3s;
+}
+@media (min-width: 320px) {
+    .nav-bar-container-ul, .nav-bar-container-options, .first-page-container-paragraph1, .first-page-container-paragraph2,  .first-page-container-button1, .first-page-container-button2 {
+        display: none;
+    }
+  }
+@media (min-width: 768px) {
+    .first-page-container-paragraph1,  .first-page-container-button1, .first-page-container-button2 {
+        display: flex;
+    }
+    .first-page-container-button-m {
+        display: none;
+    }
+    .first-page-container{
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .first-page-container-text, .first-page-container-video {
+        width: 47%;
+        height: 70%;
+    }
+   .first-page{
+        height: 800px;
+   }
+   .slack-logo {
+        width: 78%;
+        height: 100%;
+  }
+  .nav-bar-container-logo{
+         width: 10%;
+        height: 45%;
+  }
+  .nav-bar-container-menu{
+        width: 31%;
+  }
+}
+
+  

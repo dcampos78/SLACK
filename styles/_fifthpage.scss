@@ -1,0 +1,28 @@
+.fith-page {
+    padding: 48px 8px;
+    background-color: #f4ede4;
+    height: fit-content;
+    }
+        &-img-mobile {
+        background-color: #2eb67d;
+        padding: 16px 24px 24px 16px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 32px;
+        }
+        &-text-title {
+            font-weight: 700;
+            font-size: 30px;
+            margin-bottom: 16px;
+        }
+        &-text-p, &-information {
+            font-weight: 400;
+            font-size: 20px;
+            margin-bottom: 16px;
+}
+
+@media (min-width: 320px) {
+    .fith-page-video, .fith-page-text {
+      display: none;
+    }
+}

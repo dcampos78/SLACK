@@ -1,0 +1,28 @@
+.fourth-page {
+    padding: 48px 8px;
+    background-color: #f4ede4;
+    height: fit-content;
+    }
+        &-img-mobile {
+        background-color: #ecb22e;
+        padding: 16px 24px 24px 16px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 32px;
+        }
+        &-text-title {
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 16px;
+        }
+        &-text-p, &-information {
+            font-weight: 400;
+            font-size: 20px;
+            margin-bottom: 16px;
+}
+
+@media (min-width: 320px) {
+    .fourth-page-video, .fourth-page-text {
+      display: none;
+    }
+}

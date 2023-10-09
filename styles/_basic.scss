@@ -1,0 +1,39 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border-style: none;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100vw;
+  height: 667px;
+}
+.body {
+  font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.button {
+   appearance: none;
+  background: 0 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+  font-weight: 700;
+  line-height: 1.2857;
+  letter-spacing: .8px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 19px 40px 20px;
+  display: block;
+  width: 100%;
+}
+.video, .img {
+  max-width: 100%;
+  height: auto;
+}
+video:hover {
+  box-shadow: 0 0 1rem rgba(0,0,0,.6);
+}
