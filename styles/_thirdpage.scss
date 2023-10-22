@@ -34,14 +34,5 @@
     }
 }
 @media (min-width: 768px) {
-    .third-page-container{
-        display: flex;
-       flex-direction: column;
-    }
-    .third-page-video, .third-page-text-desktop-tablet {
-      display: flex;
-    }
-    .third-page-img-mobil, .third-page-text-mobile {
-        display: none;
-      }
+ 
 }

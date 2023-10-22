@@ -113,35 +113,39 @@
     }
   }
 @media (min-width: 768px) {
-    .first-page-container-paragraph1,  .first-page-container-button1, .first-page-container-button2 {
+  .first-page{
+    height: 800px;
+  }
+  &-container{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    &-&-paragraph1,  &-&--button1, &-&--button2 {
         display: flex;
     }
-    .first-page-container-button-m {
+    &-&--button-m {
         display: none;
     }
-    .first-page-container{
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .first-page-container-text, .first-page-container-video {
+    &-&--text, &-&--video {
         width: 47%;
         height: 70%;
     }
-   .first-page{
-        height: 800px;
-   }
-   .slack-logo {
-        width: 78%;
-        height: 100%;
-  }
-  .nav-bar-container-logo{
-         width: 10%;
-        height: 45%;
-  }
-  .nav-bar-container-menu{
-        width: 31%;
-  }
+    .slack-logo {
+          width: 78%;
+          height: 100%;
+    }
+    .nav-bar {
+      background-color: transparent;
+      position: fixed;
+      border-bottom: none;
+      box-shadow: none;
+      }
+      &-container-logo{
+            width: 10%;
+            height: 45%;
+        }
+        &-&-menu{
+              width: 31%;
+        }
 }
-
-  
